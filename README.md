@@ -11,15 +11,45 @@ $ go get -u github.com/coreos/etcd/client
 
 # Usage
 
-etcdstats -server [-cacert CERT] [-cert CERT] [-key KEY] [-n N]
+```
+Usage of etcdstats:
+  -alsologtostderr
+        log to standard error as well as files
+  -cacert string
+        CA certificate file (optional)
+  -cert string
+        client certificate file (optional)
+  -key string
+        client certificate key file (optional)
+  -log_backtrace_at value
+        when logging hits line file:N, emit a stack trace
+  -log_dir string
+        If non-empty, write log files in this directory
+  -logtostderr
+        log to standard error instead of files
+  -n int
+        display top n highest nodes (default 20)
+  -prefix string
+        directory prefix to summarize (default "/")
+  -server string
+        server url, e.g. https://127.0.0.1:2379 (required)
+  -stderrthreshold value
+        logs at or above this threshold go to stderr
+  -summarize value
+        summarize descendent nodes for the directory prefixed by this value instead of displaying these nodes; may specify multiple times for multiple directories
+  -v value
+        log level for V logs
+  -vmodule value
+        comma-separated list of pattern=N settings for file-filtered logging
+```
 
 # Example output
 
 ```
-$ etcdstats -server https://127.0.0.1:4001 -cacert \
-/var/lib/origin/openshift.local.config/master/ca.crt -cert \
-/var/lib/origin/openshift.local.config/master/master.etcd-client.crt -key \
-/var/lib/origin/openshift.local.config/master/master.etcd-client.key \
+$ etcdstats -server https://127.0.0.1:4001 \
+-cacert /var/lib/origin/openshift.local.config/master/ca.crt \
+-cert /var/lib/origin/openshift.local.config/master/master.etcd-client.crt \
+-key /var/lib/origin/openshift.local.config/master/master.etcd-client.key \
 -n 20 \
 -summarize /openshift.io/images \
 -summarize /kubernetes.io/secrets
