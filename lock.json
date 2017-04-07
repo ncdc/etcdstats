@@ -1,0 +1,190 @@
+{
+    "memo": "",
+    "projects": [
+        {
+            "name": "github.com/PuerkitoBio/purell",
+            "version": "v1.0.0",
+            "revision": "8a290539e2e8629dbc4e6bad948158f790ec31f4",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/PuerkitoBio/urlesc",
+            "revision": "5bd2802263f21d8788851d5305584c82a5c75d7e",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/blang/semver",
+            "version": "v3.0.1",
+            "revision": "31b736133b98f26d5e078ec9eb591666edfd091f",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/coreos/etcd",
+            "version": "v3.0.14",
+            "revision": "8a37349097a592db79ba3087f3cae9cd4b0af21c",
+            "packages": [
+                "client"
+            ]
+        },
+        {
+            "name": "github.com/davecgh/go-spew",
+            "revision": "5215b55f46b2b919f50a1df0eaa5886afe4e3b3d",
+            "packages": [
+                "spew"
+            ]
+        },
+        {
+            "name": "github.com/docker/distribution",
+            "revision": "cd27f179f2c10c5d300e6d09025b538c475b0d51",
+            "packages": [
+                "reference"
+            ]
+        },
+        {
+            "name": "github.com/emicklei/go-restful",
+            "revision": "89ef8af493ab468a45a42bb0d89a06fccdd2fb22",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/ghodss/yaml",
+            "revision": "73d445a93680fa1a78ae23a5839bad48f32ba1ee",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/go-openapi/jsonpointer",
+            "revision": "46af16f9f7b149af66e5d1bd010e3574dc06de98",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/go-openapi/jsonreference",
+            "revision": "13c6e3589ad90f49bd3e3bbe2c2cb3d7a4142272",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/go-openapi/spec",
+            "revision": "6aced65f8501fe1217321abf0749d354824ba2ff",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/go-openapi/swag",
+            "revision": "1d0bd113de87027671077d3c71eb3ac5d7dbba72",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/gogo/protobuf",
+            "revision": "e18d7aa8f8c624c915db340349aad4c49b10d173",
+            "packages": [
+                "proto",
+                "sortkeys"
+            ]
+        },
+        {
+            "name": "github.com/golang/glog",
+            "revision": "44145f04b68cf362d9c4df2182967c2275eaefed",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/google/gofuzz",
+            "revision": "bbcb9da2d746f8bdbd6a936686a0a6067ada0ec5",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/juju/ratelimit",
+            "revision": "77ed1c8a01217656d2080ad51981f6e99adaa177",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/mailru/easyjson",
+            "revision": "d5b7844b561a7bc640052f1b935f7b800330d7e0",
+            "packages": [
+                "jlexer",
+                "jwriter"
+            ]
+        },
+        {
+            "name": "github.com/pborman/uuid",
+            "revision": "ca53cad383cad2479bbba7f7a1a05797ec1386e4",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/spf13/pflag",
+            "revision": "5ccb023bc27df288a957c5e994cd44fd19619465",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "github.com/ugorji/go",
+            "revision": "f1f1a805ed361a0e078bb537e4ea78cd37dcf065",
+            "packages": [
+                "codec"
+            ]
+        },
+        {
+            "name": "golang.org/x/net",
+            "revision": "e90d6d0afc4c315a0d87a568ae68577cc15149a0",
+            "packages": [
+                "context",
+                "idna",
+                "http2"
+            ]
+        },
+        {
+            "name": "golang.org/x/text",
+            "revision": "2910a502d2bf9e43193af9d68ca516529614eed3",
+            "packages": [
+                "secure/precis",
+                "unicode/norm"
+            ]
+        },
+        {
+            "name": "gopkg.in/inf.v0",
+            "revision": "3887ee99ecf07df5b447e9b00d9c0b2adaa9f3e4",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "gopkg.in/yaml.v2",
+            "revision": "53feefa2559fb8dfa8d81baad31be332c97d6c77",
+            "packages": [
+                "."
+            ]
+        },
+        {
+            "name": "k8s.io/kubernetes",
+            "version": "v1.5.6",
+            "revision": "114f8911f9597be669a747ab72787e0bd74c9359",
+            "packages": [
+                "pkg/client/restclient",
+                "pkg/util/net"
+            ]
+        }
+    ]
+}
